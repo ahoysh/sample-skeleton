@@ -1,0 +1,112 @@
+---
+name: sample-skeleton
+description: A Sample Skeleton Template
+author: Pirate Pete (pete@ahoy.sh)
+keywords:
+- nodejs
+- html
+- CSS
+copy:
+- "**/*/copy/**"
+ignore:
+- "**/ignore/**"
+questions:
+- type: checkbox
+  name: checkbox_field
+  message: Checkbox Field
+  initial: ''
+  required: true
+- type: color
+  name: color_field
+  message: Color Field
+  initial: ''
+  required: true
+- type: date
+  name: date_field
+  message: Date Field
+  initial: ''
+  required: true
+- type: datetime-local
+  name: datetime_local_field
+  message: Datetime-local Field
+  initial: ''
+  required: true
+- type: email
+  name: email_field
+  message: Email Field
+  initial: ''
+  required: true
+- type: month
+  name: month_field
+  message: Month Field
+  initial: ''
+  required: true
+- type: number
+  name: number_field
+  message: Number Field
+  initial: 0
+  required: true
+- type: password
+  name: password_field
+  message: Password Field
+  initial: ''
+  required: true
+- type: radio
+  name: radio_field
+  message: Radio Field
+  initial: 1
+  choices:
+  - value1
+  - value2
+  - value3
+  required: true
+- type: range
+  name: range_field
+  message: Range Field
+  initial: 5
+  min: 0
+  max: 10
+  required: true
+- type: select
+  name: select_field
+  message: Select Field
+  initial: 2
+  choices:
+  - value1
+  - value2
+  - value3
+  required: true
+- type: multi-select
+  name: multi_select_field
+  message: Multi-select Field
+  choices:
+  - value1
+  - value2
+  - value3
+  initial: 0
+  required: true
+- type: tel
+  name: tel_field
+  message: Tel Field
+  initial: ''
+  required: true
+- type: text
+  name: text_field
+  message: Text Field
+  initial: ''
+  required: true
+- type: time
+  name: time_field
+  message: Time Field
+  initial: ''
+  required: true
+- type: url
+  name: url_field
+  message: URL Field
+  initial: ''
+  required: true
+- type: week
+  name: week_field
+  message: Week Field
+  initial: ''
+  required: true

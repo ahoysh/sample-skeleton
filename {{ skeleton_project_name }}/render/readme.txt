@@ -1,1 +1,1 @@
-{{ skeleton_base }}
+{{ skeleton_project_name }}

@@ -1,7 +1,7 @@
-Ahoy - Sample Skeleton
-======================
+Ahoy - Skeleton Example
+=======================
 
-This is a sample skeleton to test the functionality of the skeleton tool.
+This is a skeleton example to test the functionality of the skeleton tool.
 
 
 Default questions
@@ -42,4 +42,5 @@ Text Field: {{ text_field }}
 Time Field: {{ time_field }}
 URL Field: {{ url_field }}
 Week Field: {{ week_field }}
+Auto Field: {{ auto_field }}
 ~~~

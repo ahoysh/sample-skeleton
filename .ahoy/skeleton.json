@@ -1,6 +1,6 @@
 {
-  "name": "sample-skeleton",
-  "description": "A Sample Skeleton Template",
+  "name": "skeleton-example",
+  "description": "Exapmple Skeleton Template",
   "author": "Pirate Pete (pete@ahoy.sh)",
   "keywords": ["nodejs", "html", "CSS"],
   "copy": [
@@ -133,6 +133,16 @@
       "message": "Week Field",
       "initial": "",
       "required": true
+    },
+    {
+      "type": "auto",
+      "name": "auto_field",
+      "message": "Auto Field",
+      "uppercase": true,
+      "lowercase": true,
+      "numbers": true,
+      "symbols": true,
+      "length": 12
     }
   ]
 }

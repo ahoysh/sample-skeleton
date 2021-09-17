@@ -10,7 +10,7 @@ Default questions
 A list of questions that are asked every time:
 
 ~~~
-Project Name: {{ skeleton_name }}
+Project Name: {{ skeleton_project_name }}
 Project Description: {{ skeleton_description }}
 Project Author: {{ skeleton_author }}
 Project Keywords: {{ skeleton_keywords }}
